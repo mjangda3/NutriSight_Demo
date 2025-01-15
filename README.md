@@ -35,8 +35,8 @@
 
 3. **Clone the Repository, Navigate to the Project Directory, and Run the Installer Script:**
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/mjangda3/NutriSight_Demo
+   cd NutriSight_Demo
    ./install.sh
    ```
    *If you encounter a permission error, make the script executable:*
