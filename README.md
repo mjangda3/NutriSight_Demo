@@ -64,23 +64,8 @@
 
 ## 3. Demo
 
-### Preparing the Dataset
 
-1. **Place Your Data Files:**
-   - Ensure that `X.csv` and `y.csv` are located in the `data/` directory of the project.
-   
-2. **Verify Data Format:**
-   - `X.csv`: Should contain your feature data structured as required by the model.
-   - `y.csv`: Should contain your label data structured accordingly.
-
-### Running the Demo Script
-
-1. **Ensure the Virtual Environment is Activated:**
-   ```bash
-   source env/bin/activate
-   ```
-
-2. **Execute the Demo Script:**
+1. **Execute the Demo Script:**
    ```bash
    python src/demo.py
    ```
@@ -88,50 +73,5 @@
 3. **Expected Output:**
    - The demo will process the dataset and display metrics such as ROC AUC and accuracy scores.
    - Visualizations like ROC curves for each timestep will be displayed.
-
----
-
-## 4. Usage
-
-### Running the Main Script
-
-1. **Ensure the Virtual Environment is Activated:**
-   ```bash
-   source env/bin/activate
-   ```
-
-2. **Execute the Main Training Script:**
-   ```bash
-   python src/main.py --input_X data/X.npy --input_y data/y.npy --output_dir results/
-   ```
-
-3. **Review the Results:**
-   - The processed data and model outputs will be available in the `results/` directory.
-   - Plots such as training and validation loss will be displayed.
-
-
----
-
-## 7. Example Usage
-
-### Training the Model
-
-```bash
-python src/main.py --input_X data/X.npy --input_y data/y.npy --output_dir results/
-```
-
-**Notes:**
-
-- Ensure that `X.npy` and `y.npy` are present in the `data/` directory. If starting from `X.csv` and `y.csv`, you need to preprocess them using the provided `preprocess.py` script.
-
-### Running the Demo
-
-```bash
-python src/demo.py --input_X data/X.csv --input_y data/y.csv --output_dir demo_results/
-```
-
-**Notes:**
-
-- The demo script assumes that `X.csv` and `y.csv` are in the correct format and shape expected by the model.
 
 ---
