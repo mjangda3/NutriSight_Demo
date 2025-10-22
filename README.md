@@ -77,3 +77,15 @@
    - Visualizations like ROC curves for each timestep will be displayed.
 
 ---
+
+
+## 4. Expected Output
+
+Average ROC AUC (Test): ~0.466
+Average ROC AUC (Train): ~0.474
+Test Accuracy: ~46.7%
+Train Accuracy: ~47.7%
+
+You should see the same or very similar values on the same machine. Small differences across machines/OSes are normal due to BLAS/TF kernels. The demo also shows:
+- a Training vs Validation loss plot, and
+- per-timestep ROC curves.
