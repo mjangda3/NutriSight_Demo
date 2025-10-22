@@ -186,7 +186,7 @@ callbacks = [
 
 history = model.fit(
     X_train, y_train,
-    epochs=5,
+    epochs=60,
     batch_size=48,
     validation_data=(X_val, y_val),
     callbacks=callbacks,
