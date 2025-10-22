@@ -5,7 +5,9 @@
 ### Software Dependencies
 
 - **Operating Systems:** 
-  - **macOS:** 14.6 (23G80)
+  - macOS 14.6 (tested)
+  - Ubuntu 22.04 (tested)
+  - Windows 11 (tested)
 - **Programming Languages & Frameworks:** 
   - Python 3.10.12
 - **Libraries:**
@@ -19,7 +21,7 @@
   - Git 2.28
 
 ### Non-Standard Hardware
-- **Memory:** Minimum 16 GB RAM recommended
+  - **None.** CPU is sufficient. (RAM ≥ 8–16 GB recommended.)
 
 ---
 
